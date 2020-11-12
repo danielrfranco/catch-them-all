@@ -49,6 +49,11 @@ export default function FormComponent() {
       {({ isSubmitting }) => (
         <div className='container'>
           <Form>
+            <h1>Catch Them All!</h1>
+            <p>
+              Type a pokemon name to catch it. Example: "pikachu", "charmander",
+              "mew"
+            </p>
             <Field type='text' name='pokemonName' />
             <ErrorMessage name='pokemonName' component='div' />
 
